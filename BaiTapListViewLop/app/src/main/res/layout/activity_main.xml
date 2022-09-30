@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/txtTenGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nhap ten  game"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/txt_MoTa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nhap mo ta"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/txt_DungLuong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nhap dung luong"
+            android:textSize="25sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearbtn"
+        android:layout_below="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnThem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Them"
+            android:textAllCaps="false"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Sua"
+            android:textAllCaps="false"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnXoa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Xoa"
+            android:textAllCaps="false"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/ListViewGame"
+        android:layout_below="@+id/linearbtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>
