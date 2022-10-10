@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/bg_indicator.xml" value="0.195" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/custom_button.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/custom_button_caidat.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/round_bg.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/round_boder_red.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/round_border.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_danh_sach_tai_khoan.xml" value="0.21504916631038906" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_dow_load.xml" value="0.21504916631038906" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_forgot_password.xml" value="0.21504916631038906" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_game_dua_thu.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_home.xml" value="0.21504916631038906" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.21504916631038906" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main_profile.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_mo_ta_game.xml" value="0.21504916631038906" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_phong_to_anh.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_sign_up.xml" value="0.21504916631038906" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_trang_chu.xml" value="0.21504916631038906" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/custom_dong_game.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/custom_dong_game2.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/custom_dong_game3.xml" value="0.21504916631038906" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/dogwin.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/dragonwin.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_danh_sach_tai_khoan.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_dow_load.xml" value="0.21504916631038906" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_first.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_main_profile.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_second.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_sign_in.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_trang_chu.xml" value="0.21504916631038906" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/gitf.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/item_category.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/item_game.xml" value="0.21504916631038906" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/item_photo.xml" value="0.21504916631038906" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/mousewin.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/phongtoanh.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/layout/voiwin.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyApplication/app/src/main/res/menu/bottom_navigation.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MoTaGame">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+       <androidx.cardview.widget.CardView
+           android:layout_width="wrap_content"
+           app:cardCornerRadius="12dp"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:id="@+id/imgMoTa"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:scaleType="centerCrop"
+               android:src="@drawable/csgo"
+               android:background="@drawable/boder"/>
+       </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtMoTaTenGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ten Game"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txt_mo_ta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mo ta"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="@color/teal_700"/>
+            <TextView
+                android:id="@+id/txt_dung_luong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mo ta"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_caidatgame"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="Cài đặt"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button_caidat"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <VideoView
+            android:id="@+id/vdAnhViDeo"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"/>
+        <ImageButton
+            android:id="@+id/imgmp4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/play"
+            android:background="@null"
+            android:scaleType="centerCrop"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mô Tả"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txtMoTaGame"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sản phẩm được hợp tác phát hành bởi Công ty TNHH Liên Minh Huyền Thoại  Công ty Cổ phần Giải trí và Thể thao Điện tử Việt Nam.
+Văn phòng đại diện: Tầng 29, tòa nhà Trung tâm Lotte Hà Nội, số 54 đường Liễu Giai, phường Cống Vị, quận Ba Đình, thành phố Hà Nội, Việt Nam.
+Điện thoại: (04)7305-3939; Fax: (04)3759-2429"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"/>
+    </LinearLayout>
+
+</ScrollView>
