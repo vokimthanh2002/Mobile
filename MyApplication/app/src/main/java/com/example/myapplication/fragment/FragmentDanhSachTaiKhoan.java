@@ -53,7 +53,7 @@ public class FragmentDanhSachTaiKhoan extends Fragment {
              public void onClick(View view) {
                  boolean status=false;
                  if(edtNhapTaiKhoan.getText().length()!=0 && edtNhapMatKhau.getText().length()!=0){
-                     Cursor dataAccount = FragmentSignIn.database.GetData("SELECT * FROM DuLieuTaiKhoan");
+                     Cursor dataAccount = FragmentSignIn.database.GetData("SELECT * FROM DuLieuTfffraiKhoan");
                      while (dataAccount.moveToNext()){
                          String userName =dataAccount.getString(0);
                          String password =dataAccount.getString(1);
