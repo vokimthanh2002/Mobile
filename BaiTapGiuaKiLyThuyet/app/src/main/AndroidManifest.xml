@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.baitapgiuakilythuyet">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BaiTapGiuaKiLyThuyet"
+        tools:targetApi="31">
+        <activity
+            android:name=".ActivityForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitySignUp"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityContaint"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityShare"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityReview"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityDowload"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityFavorite"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitycategoryDetail"
+            android:exported="false" />
+
+
+
+        <activity
+            android:name=".ActivityDetail"
+            android:exported="false" />
+
+        <activity
+            android:name=".ActivitySignIn"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
