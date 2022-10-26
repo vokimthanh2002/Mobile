@@ -49,7 +49,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
 
     private void onClickGoToDetail(ContactModel model) {
         Intent intent = new Intent(activity,Detail.class);
-         
+        intent.putExtra("key1",model.getNumber());
         activity.startActivity(intent);
 
     }
