@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "768288291301",
+    "firebase_url": "https://quanlythuocnam-a32c8-default-rtdb.firebaseio.com",
+    "project_id": "quanlythuocnam-a32c8",
+    "storage_bucket": "quanlythuocnam-a32c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768288291301:android:d9bb39dcf96fa7bf52170c",
+        "android_client_info": {
+          "package_name": "com.example.fbase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768288291301-hacoa40u2aqg6r3sksvej6nsd2sq4l1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoggqhlNWCKe1Sy2G6I_wGTCJNsrB-v0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768288291301-hacoa40u2aqg6r3sksvej6nsd2sq4l1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
