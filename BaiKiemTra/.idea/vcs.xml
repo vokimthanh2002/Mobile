@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/AppQuanLySinhVien" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BaiTapCuoiKy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Mobile" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Mobile/AppQuanLySinhVien" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Mobile/Tuan10_SQLite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SQlite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/congnghephanmem" vcs="Git" />
+  </component>
+</project>

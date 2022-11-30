@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C67716"
+    tools:context=".DetailActivity">
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="50dp"
+        android:layout_margin="20dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24"/>
+    <TextView
+        android:id="@+id/tenTacGiaDeTal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ten tac gia"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+    <ListView
+        android:id="@+id/listViewDeTail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
